@@ -16,18 +16,21 @@ To build like a pro, we need the right tools. Make sure you have the following i
 
 - Click create new project.
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/058adb51-6e52-418a-b101-8b69318baf5f" />
+<img width="656" height="354" alt="image" src="https://github.com/user-attachments/assets/1920b5f0-fbfc-4234-91ee-0beab74beba9" />
+
 
 
 ## Step 2: Filter the list
 
 - This new screen pops up. To find the correct template efficiently, apply filters for the language, the platform, and finally search for Web API. This narrows down the list to the essential framework for building robust back-end services.
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e9d4ed00-8923-4fc7-9e69-918e639ec473" />
+<img width="694" height="197" alt="image" src="https://github.com/user-attachments/assets/66486541-8a4c-47b1-bb7f-0372b5972fc9" />
+
 
 ## Step 3: Select ASP.NET Core Web API template
 
 - Choose the ASP.NET Core Web API template. This is preferred over Native AOT for intermediate developers because it offers a full middleware suite and the flexibility required for enterprise-grade applications. Then click **Next** at the bottom right of the screen.
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/37a45f0a-b4a7-4f73-a5e2-96ff73403a56" />
+<img width="696" height="212" alt="image" src="https://github.com/user-attachments/assets/915fdecb-ebb7-4fa5-be96-70856f26ee82" />
+
 
 ## Step 4: Naming 
 
