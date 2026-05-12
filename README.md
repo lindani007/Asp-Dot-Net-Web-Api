@@ -31,4 +31,4 @@ This API follows a clean architecture pattern to ensure maintainability and scal
 ### Installation & Setup
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/lindani007/Asp-Dot-Net-Web-Api.git](https://github.com/lindani007/Asp-Dot-Net-Web-Api.git)
+   git clone https://github.com/lindani007/Asp-Dot-Net-Web-Api.git
