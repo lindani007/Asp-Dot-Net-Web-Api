@@ -5,7 +5,7 @@ Welcome to the official repository for the **Lindani's Dev** API series! This pr
 
 ## Watch the Tutorial
 Learn how this system was built step-by-step on YouTube:
-[https://www.youtube.com/@LindanisDev]
+https://www.youtube.com/@LindanisDev
 
 ---
 
