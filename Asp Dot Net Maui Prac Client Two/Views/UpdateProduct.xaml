@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Asp_Dot_Net_Maui_Prac_Client_Two.Views.UpdateProduct"
+             Title="Update Product" BackgroundColor="WhiteSmoke" Loaded="ContentPage_Loaded">
+    <ScrollView>
+        <Border >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="15"/>
+            </Border.StrokeShape>
+            <VerticalStackLayout
+    BackgroundColor="White" HorizontalOptions="Center" Margin="15" Padding="30,0" Spacing="25">
+                <Label Text="Update Product" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold"/>
+
+
+                <HorizontalStackLayout Spacing="5" Padding="10">
+                    <Label Text="Product Name:" WidthRequest="150"/>
+                    <Border Stroke="LightGray" StrokeThickness="1" Padding="5">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="ProductNameEntry"  WidthRequest="270" Placeholder="Product name"/>
+                    </Border>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="5" Padding="10">
+                    <Label Text="Product Description:"  WidthRequest="150"/>
+                    <Border Stroke="LightGray" StrokeThickness="1" Padding="5">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="ProductDescriptionEntry" WidthRequest="270" Placeholder="Product description"/>
+                    </Border>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="5" Padding="10">
+                    <Label Text="Product Price:"  WidthRequest="150"/>
+                    <Border Stroke="LightGray" StrokeThickness="1" Padding="5">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="ProductPriceEntry" WidthRequest="270" Placeholder="Product price"/>
+                    </Border>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Spacing="5" Padding="10">
+                    <Label Text="Product Image URL:"  WidthRequest="150"/>
+                    <Border Stroke="LightGray" StrokeThickness="1" Padding="5">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Entry x:Name="ProductImageUrlEntry" WidthRequest="270" Placeholder="Product image URL"/>
+                    </Border>
+                </HorizontalStackLayout>
+                <Button Text="Update Product" Clicked="OnUpdateProductClicked" HorizontalOptions="Center" />
+
+            </VerticalStackLayout>
+        </Border>
+
+    </ScrollView>
+
+</ContentPage>

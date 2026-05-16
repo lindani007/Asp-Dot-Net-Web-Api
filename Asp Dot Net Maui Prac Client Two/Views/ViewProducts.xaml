@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Asp_Dot_Net_Maui_Prac_Client_Two.Views.ViewProducts"
+             xmlns:model="clr-namespace:Asp_Dot_Net_Maui_Prac_Client_Two.Models"
+             Title="ViewProducts" BackgroundColor="WhiteSmoke" Loaded="ContentPage_Loaded">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="WhiteSmoke" Margin="10">
+            <CollectionView x:Name="productCollection" SelectionMode="None" ItemsLayout="VerticalGrid,3">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Product">
+                        <StackLayout>
+                            <Border HorizontalOptions="Center" BackgroundColor="White">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="10" />
+                                </Border.StrokeShape>
+                                <StackLayout Spacing="10" Padding="10">
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Padding="10">
+                                        <Border>
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="10" />
+                                            </Border.StrokeShape>
+                                            <Image Source="{Binding ProductImageUrl}" Aspect="AspectFill" HeightRequest="150" Margin="0,10,0,0"/>
+                                        </Border>
+                                        <StackLayout>
+                                            <Label Text="{Binding ProductName}" FontAttributes="Bold" FontSize="Medium" />
+                                            <Label Text="{Binding ProductDescription}" FontSize="Small" />
+                                            <Label Text="{Binding ProductPrice, StringFormat='Price: R{0,00}'}" FontSize="Small" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                                        <Button Text="Edit" Clicked="OnEditProductClicked" CommandParameter="{Binding .}" WidthRequest="100" />
+                                        <Button Text="Delete" Clicked="OnDeleteProductClicked" CommandParameter="{Binding .}" WidthRequest="100"/>
+                                    </HorizontalStackLayout>
+                                </StackLayout>
+
+                            </Border>
+                        </StackLayout>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

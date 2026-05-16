@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+
+input {
+    border-radius: 10px;
+    width: 270px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+label{
+    width: 100px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+﻿@model Asp_Dot_net_Web_Api_Prac_Client_one.Models.Product
+
+   <form method="post">
+    <div class="container">
+            <h3>Create Product</h3>
+
+            <div>
+            <a asp-action="ViewProducts" class="btn btn-secondary">View Products</a>
+            </div>
+            <div class="sub-container">
+                <label for="ProductName">Name</label>
+                <input type="text" id="ProductName" name="ProductName" placeholder="Product Name" />
+            </div>
+            <div class="sub-container">
+                <label for="ProductDescription">Description</label>
+                <input type="text" id="ProductDescription" name="ProductDescription" placeholder="Product Description" />
+            </div>
+            <div class="sub-container">
+                <label for="ProductPrice">Price</label>
+                <input type="text" id="ProductPrice" name="ProductPrice" placeholder="Product Price" />
+            </div>
+            <div class="sub-container">
+                <label for="ProductImageUrl">Image URL</label>
+                <input type="text" id="ProductImageUrl" name="ProductImageUrl" placeholder="Product Image URL" />
+            </div>
+            <div>
+                <button type="submit">Create</button>
+            </div>
+            <h4>@ViewBag.Message</h4>
+       </div>  
+  </form>

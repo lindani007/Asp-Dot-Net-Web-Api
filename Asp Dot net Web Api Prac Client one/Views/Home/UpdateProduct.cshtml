@@ -1,0 +1,27 @@
+﻿@model Asp_Dot_net_Web_Api_Prac_Client_one.Models.Product
+
+<form method="post">
+    <div class="container">
+        <h3>UpDate Product</h3>
+        <input type="hidden" asp-for="ProductId" />
+        <div class="sub-container">
+            <label for="ProductName" style="width: 100px;">Name</label>
+            <input asp-for="ProductName" class="form-control" />
+        </div>
+        <div class="sub-container">
+            <label for="ProductDescription" style="width: 100px;">Description</label>
+            <input asp-for="ProductDescription" class="form-control" />
+        </div>
+        <div class="sub-container">
+            <label for="ProductPrice" style="width:100px;">Price</label>
+            <input asp-for="ProductPrice" class="form-control" />
+        </div>
+        <div class="sub-container">
+            <label for="ProductImageUrl" style="width: 100px;">Image URL</label>
+            <input asp-for="ProductImageUrl" class="form-control" />
+        </div>
+        <div>
+            <button type="submit">Update</button>
+        </div>
+    </div>
+</form>

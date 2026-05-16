@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Apps/">
+    <Project Path="Asp Dot Net Maui Prac Client Two/Asp Dot Net Maui Prac Client Two.csproj" Id="44d5657f-06ba-4666-8370-8aba2b932339" />
+    <Project Path="Asp Dot Net Web Api Prac Client One/Asp Dot Net Web Api Prac Client One.csproj" Id="062ac6a8-c3f1-4693-b0a1-7d1df07a7915" />
+  </Folder>
+  <Folder Name="/DBApi/">
+    <Project Path="Asp Dot Net Web Api Prac Service/Asp Dot Net Web Api Prac Service.csproj" Id="47c1eaf3-4f3a-4257-a56f-efffd0ddacd9" />
+    <Project Path="Asp Dot Net Web Api Prac/Asp Dot Net Web Api Prac.csproj" />
+  </Folder>
+</Solution>
